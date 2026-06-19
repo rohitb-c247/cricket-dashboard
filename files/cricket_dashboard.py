@@ -56,24 +56,24 @@ CSS = """
 @import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;800&family=Space+Mono:wght@400;700&family=Inter:wght@400;500;600&display=swap');
 
 :root{
-  --bg-deep:#0E1A14;
-  --panel:#152922;
-  --panel-edge:#21392F;
-  --chalk:#F2EFE6;
-  --willow:#3FA15A;
-  --willow-dim:#2C7344;
-  --ball-red:#C8553D;
-  --floodlight:#F0BD4C;
-  --muted:#8FA399;
+  --bg-deep:#1A3A52;
+  --panel:#2C5AA0;
+  --panel-edge:#4A7BC4;
+  --chalk:#FFFFFF;
+  --willow:#FFB800;
+  --willow-dim:#E6A500;
+  --ball-red:#FF6B35;
+  --floodlight:#FFD700;
+  --muted:#B8C5D6;
 }
 
 html, body, [class*="css"]{ font-family:'Inter', sans-serif; }
 .stApp{
   background:
     repeating-linear-gradient(0deg, rgba(255,255,255,0.012) 0px, rgba(255,255,255,0.012) 1px, transparent 1px, transparent 3px),
-    radial-gradient(circle at 20% -10%, #16302430 0%, var(--bg-deep) 55%), var(--bg-deep);
+    radial-gradient(circle at 20% -10%, #2C5AA0 0%, var(--bg-deep) 55%), var(--bg-deep);
 }
-section[data-testid="stSidebar"]{ background:#0B1813; border-right:1px solid var(--panel-edge); }
+section[data-testid="stSidebar"]{ background:#1A3A52; border-right:1px solid var(--panel-edge); }
 
 h1,h2,h3{ font-family:'Barlow Condensed', sans-serif; color:var(--chalk); letter-spacing:0.01em; }
 
@@ -100,14 +100,14 @@ h1,h2,h3{ font-family:'Barlow Condensed', sans-serif; color:var(--chalk); letter
 
 /* ---- Scrolling live ticker ---- */
 .pp-ticker-wrap{
-  background:#0B1813; border:1px solid var(--panel-edge); border-radius:8px;
+  background:#2C5AA0; border:1px solid var(--panel-edge); border-radius:8px;
   overflow:hidden; margin-bottom:18px; position:relative; height:34px;
 }
 .pp-ticker-wrap::before, .pp-ticker-wrap::after{
   content:""; position:absolute; top:0; bottom:0; width:28px; z-index:2;
 }
-.pp-ticker-wrap::before{ left:0; background:linear-gradient(90deg, #0B1813, transparent); }
-.pp-ticker-wrap::after{ right:0; background:linear-gradient(270deg, #0B1813, transparent); }
+.pp-ticker-wrap::before{ left:0; background:linear-gradient(90deg, #2C5AA0, transparent); }
+.pp-ticker-wrap::after{ right:0; background:linear-gradient(270deg, #2C5AA0, transparent); }
 .pp-ticker{
   display:flex; align-items:center; gap:36px; white-space:nowrap;
   font-family:'Space Mono', monospace; font-size:12.5px; color:var(--chalk);
@@ -159,7 +159,7 @@ h1,h2,h3{ font-family:'Barlow Condensed', sans-serif; color:var(--chalk); letter
 .pp-team-name{ width:175px; flex-shrink:0; font-size:14px; color:var(--chalk); font-weight:600; }
 .pp-team-name.bat{ color:var(--floodlight); }
 .pp-bat-arrow{ color:var(--floodlight); margin-left:5px; font-size:11px; }
-.pp-bar-track{ flex:1; height:9px; background:#0B1813; border-radius:5px; overflow:hidden; border:1px solid var(--panel-edge); }
+.pp-bar-track{ flex:1; height:9px; background:#1A3A52; border-radius:5px; overflow:hidden; border:1px solid var(--panel-edge); }
 .pp-bar-fill{ height:100%; border-radius:5px; background:linear-gradient(90deg, var(--willow-dim), var(--willow)); }
 .pp-score{
   font-family:'Space Mono', monospace; font-size:14px; color:var(--chalk); width:150px;
