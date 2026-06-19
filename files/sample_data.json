@@ -1,0 +1,322 @@
+{
+  "fetched_at_utc": "2026-06-19T05:27:24.295556",
+  "status_code": 200,
+  "payload": {
+    "matches": [
+      {
+        "match": {
+          "matchInfo": {
+            "matchId": 150623,
+            "seriesId": 11793,
+            "seriesName": "Major League Cricket 2026",
+            "matchDesc": "1st Match",
+            "matchFormat": "T20",
+            "startDate": 1781829000000,
+            "endDate": 1781842485173,
+            "state": "Complete",
+            "status": "Texas Super Kings won by 6 wkts",
+            "team1": {
+              "teamId": 1594,
+              "teamName": "Seattle Orcas",
+              "teamSName": "SOR",
+              "imageId": 825030
+            },
+            "team2": {
+              "teamId": 1577,
+              "teamName": "Texas Super Kings",
+              "teamSName": "TSK",
+              "imageId": 825031
+            },
+            "venueInfo": {
+              "id": 1668,
+              "ground": "Grand Prairie Stadium",
+              "city": "Dallas",
+              "timezone": "-05:00"
+            },
+            "currBatTeamId": 1577,
+            "isTournament": true,
+            "seriesStartDt": 1781654400000,
+            "seriesEndDt": 1784419200000,
+            "isTimeAnnounced": true,
+            "stateTitle": "TSK won",
+            "matchType": "league",
+            "shortStatus": "TSK won",
+            "matchImageId": 1010890
+          },
+          "matchScore": {
+            "team1Score": {
+              "inngs1": {
+                "inningsId": 1,
+                "runs": 220,
+                "wickets": 2,
+                "overs": 19.6
+              }
+            },
+            "team2Score": {
+              "inngs1": {
+                "inningsId": 2,
+                "runs": 221,
+                "wickets": 4,
+                "overs": 18.3
+              }
+            }
+          }
+        }
+      },
+      {
+        "match": {
+          "matchInfo": {
+            "matchId": 129563,
+            "seriesId": 10559,
+            "seriesName": "New Zealand tour of England, 2026",
+            "matchDesc": "2nd Test",
+            "matchFormat": "TEST",
+            "startDate": 1781690400000,
+            "endDate": 1782061200000,
+            "state": "Stumps",
+            "status": "Day 2: Stumps - England trail by 169 runs",
+            "team1": {
+              "teamId": 13,
+              "teamName": "New Zealand",
+              "teamSName": "NZ",
+              "imageId": 776333
+            },
+            "team2": {
+              "teamId": 9,
+              "teamName": "England",
+              "teamSName": "ENG",
+              "imageId": 776237
+            },
+            "venueInfo": {
+              "id": 12,
+              "ground": "Kennington Oval",
+              "city": "London",
+              "timezone": "+01:00"
+            },
+            "currBatTeamId": 9,
+            "seriesStartDt": 1780444800000,
+            "seriesEndDt": 1782777600000,
+            "isTimeAnnounced": true,
+            "stateTitle": "Stumps",
+            "matchType": "International",
+            "shortStatus": "Stump",
+            "matchImageId": 1010878
+          },
+          "matchScore": {
+            "team1Score": {
+              "inngs1": {
+                "inningsId": 1,
+                "runs": 391,
+                "wickets": 10,
+                "overs": 96.2
+              }
+            },
+            "team2Score": {
+              "inngs1": {
+                "inningsId": 2,
+                "runs": 222,
+                "wickets": 6,
+                "overs": 58.6
+              }
+            }
+          }
+        }
+      },
+      {
+        "match": {
+          "matchInfo": {
+            "matchId": 153761,
+            "seriesId": 12063,
+            "seriesName": "Australia tour of Bangladesh, 2026",
+            "matchDesc": "2nd T20I",
+            "matchFormat": "T20",
+            "startDate": 1781856000000,
+            "endDate": 1781866800000,
+            "state": "Preview",
+            "status": "Match starts at Jun 19, 08:00 GMT",
+            "team1": {
+              "teamId": 6,
+              "teamName": "Bangladesh",
+              "teamSName": "BAN",
+              "imageId": 776210
+            },
+            "team2": {
+              "teamId": 4,
+              "teamName": "Australia",
+              "teamSName": "AUS",
+              "imageId": 776202
+            },
+            "venueInfo": {
+              "id": 93,
+              "ground": "Bir Sreshtho Flight Lieutenant Matiur Rahman Stadium",
+              "city": "Chattogram",
+              "timezone": "+06:00"
+            },
+            "seriesStartDt": 1780876800000,
+            "seriesEndDt": 1782086400000,
+            "isTimeAnnounced": true,
+            "stateTitle": "Preview",
+            "matchType": "International",
+            "shortStatus": "Jun 19, 08:00 GMT",
+            "matchImageId": 1010880
+          }
+        }
+      },
+      {
+        "match": {
+          "matchInfo": {
+            "matchId": 156168,
+            "seriesId": 12257,
+            "seriesName": "Tri Nation A Series in Sri Lanka  2026",
+            "matchDesc": "6th Match",
+            "matchFormat": "ODI",
+            "startDate": 1781843400000,
+            "endDate": 1781868600000,
+            "state": "In Progress",
+            "status": "Afghanistan A opt to bowl",
+            "team1": {
+              "teamId": 43,
+              "teamName": "Sri Lanka A",
+              "teamSName": "SLA",
+              "imageId": 776263
+            },
+            "team2": {
+              "teamId": 341,
+              "teamName": "Afghanistan A",
+              "teamSName": "AFGA",
+              "imageId": 172389
+            },
+            "venueInfo": {
+              "id": 13,
+              "ground": "Rangiri Dambulla International Stadium",
+              "city": "Dambulla",
+              "timezone": "+05:30"
+            },
+            "currBatTeamId": 43,
+            "isTournament": true,
+            "seriesStartDt": 1780876800000,
+            "seriesEndDt": 1782086400000,
+            "isTimeAnnounced": true,
+            "stateTitle": "In Progress",
+            "matchType": "domestic",
+            "shortStatus": "AFGA opt to bowl",
+            "matchImageId": 1010881
+          },
+          "matchScore": {
+            "team1Score": {
+              "inngs1": {
+                "inningsId": 1,
+                "runs": 89,
+                "overs": 11.5
+              }
+            }
+          }
+        }
+      },
+      {
+        "match": {
+          "matchInfo": {
+            "matchId": 121873,
+            "seriesId": 10119,
+            "seriesName": "ICC Women's T20 World Cup 2026",
+            "matchDesc": "13th Match, Group B",
+            "matchFormat": "T20",
+            "startDate": 1781890200000,
+            "endDate": 1781901000000,
+            "state": "Preview",
+            "status": "Match starts at Jun 19, 17:30 GMT",
+            "team1": {
+              "teamId": 98,
+              "teamName": "New Zealand Women",
+              "teamSName": "NZW",
+              "imageId": 776338
+            },
+            "team2": {
+              "teamId": 189,
+              "teamName": "Ireland Women",
+              "teamSName": "IREW",
+              "imageId": 839468
+            },
+            "venueInfo": {
+              "id": 21,
+              "ground": "The Rose Bowl",
+              "city": "Southampton",
+              "timezone": "+01:00"
+            },
+            "isTournament": true,
+            "seriesStartDt": 1781136000000,
+            "seriesEndDt": 1783296000000,
+            "isTimeAnnounced": true,
+            "stateTitle": "Preview",
+            "matchType": "International",
+            "shortStatus": "Jun 19, 17:30 GMT",
+            "matchImageId": 1011066,
+            "isForecastEnabled": true
+          }
+        }
+      },
+      {
+        "match": {
+          "matchInfo": {
+            "matchId": 121868,
+            "seriesId": 10119,
+            "seriesName": "ICC Women's T20 World Cup 2026",
+            "matchDesc": "12th Match, Group B",
+            "matchFormat": "T20",
+            "startDate": 1781803800000,
+            "endDate": 1781816110236,
+            "state": "Complete",
+            "status": "West Indies Women won by 7 runs",
+            "team1": {
+              "teamId": 257,
+              "teamName": "West Indies Women",
+              "teamSName": "WIW",
+              "imageId": 776194
+            },
+            "team2": {
+              "teamId": 389,
+              "teamName": "Scotland Women",
+              "teamSName": "SCOW",
+              "imageId": 776283
+            },
+            "venueInfo": {
+              "id": 66,
+              "ground": "Headingley",
+              "city": "Leeds",
+              "timezone": "+01:00"
+            },
+            "currBatTeamId": 257,
+            "isTournament": true,
+            "seriesStartDt": 1781136000000,
+            "seriesEndDt": 1783296000000,
+            "isTimeAnnounced": true,
+            "stateTitle": "WIW won",
+            "matchType": "International",
+            "shortStatus": "WIW won",
+            "matchImageId": 1010686,
+            "isForecastEnabled": true
+          },
+          "matchScore": {
+            "team1Score": {
+              "inngs1": {
+                "inningsId": 1,
+                "runs": 153,
+                "wickets": 6,
+                "overs": 19.6
+              }
+            },
+            "team2Score": {
+              "inngs1": {
+                "inningsId": 2,
+                "runs": 146,
+                "wickets": 10,
+                "overs": 19.6
+              }
+            }
+          }
+        }
+      }
+    ],
+    "responseLastUpdated": 1781846809232
+  }
+}
